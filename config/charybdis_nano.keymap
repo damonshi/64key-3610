@@ -87,7 +87,7 @@
 &kp LCTRL   &kp A   &kp S      &kp D       &lt 1 F       &kp G          &kp H   &lt 2 J      &kp K      &kp L     &kp SEMI  &lt 3 SQT
 &kp LSHIFT  &kp Z   &kp X      &kp C       &kp V         &kp B          &kp N   &kp M        &kp COMMA  &kp DOT   &kp FSLH  &kp BSLH
                     &kp GRAVE  &kp LGUI    &kp LEFT_GUI  &lt 3 SPACE    &none   &lt 2 ENTER  &kp LBKT   &kp RBKT
-                    &kp LALT   &kp DELETE  &kp LCTRL     &kp BACKSPACE  &none   &none        &kp GLOBE  &kp LALT
+                    &kp LALT   &kp DELETE  &kp LCTRL     &kp BACKSPACE  &none   &none        &kp GLOBE  &tog 2
             >;
         };
 
@@ -111,7 +111,7 @@
 &kp LCTRL       &none  &none  &none  &none         &out OUT_BLE  &out OUT_BLE   &kp LEFT       &kp DOWN  &kp RIGHT  &none  &bootloader
 &kp LEFT_SHIFT  &none  &none  &none  &none         &none         &none          &none          &none     &none      &none  &sys_reset
                        &none  &none  &kp LEFT_GUI  &none         &kp RIGHT_ALT  &kp RIGHT_ALT  &none     &none
-                       &none  &none  &kp LEFT_ALT  &none         &none          &none          &none     &none
+                       &none  &none  &kp LEFT_ALT  &none         &none          &none          &none     &tog 0
             >;
         };
 
